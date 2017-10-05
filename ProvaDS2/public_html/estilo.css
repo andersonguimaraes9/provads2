@@ -1,0 +1,42 @@
+.contener{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+.logo{
+     width: 20%;
+     height: 90px;
+     border: solid;
+     float:  left;
+     background-color: #446699;   
+}
+.cabecario{
+     width: 75%;
+     height: 90px;
+     border: solid;
+     float:  left;
+     background-color: red; 
+}
+.menu{
+    width: 20%;
+    height: 500px;
+    border: solid;
+    float:  left;
+    background-color: aqua;
+    
+}
+.corpo{
+    width: 75%;
+    height: 500px;
+    border: solid;
+    float:  left;
+    background-color: dimgray;   
+}
+.rodape{
+    width: 96%;
+    height: 30px;
+    border: solid;
+    float:  left;
+    background-color: goldenrod;  
+}
