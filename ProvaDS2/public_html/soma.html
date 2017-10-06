@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Prova DS2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <script src="soma.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="contener">
+            <div class="logo">  
+                <img src="img/logoprefeitura.jpg" alt="" class="logoimg"/>
+            </div>
+            <div class="cabecario"> Prova DS2 </div>
+             <div class="menu"> menu 
+                 <hr>
+                 <a href="BoletimAluno.html">Soma</a>
+                 <hr>
+                 <a href="Piscina.html">Subtracao</a>
+                 <hr>
+                 <a href="Palindromo.html">multiplicacao</a>
+                 <hr>
+                  <a href="Palindromo.html">divisao</a>
+                 <hr>
+             </div>
+            <div class="corpo">
+                
+                <h2> Desafio soma</h2>
+                <label>Primeiro numero</label>
+                <input type="number" id="n1" style="width: 50px"/>
+                <label>Segundo numero</label>
+                <input type="number" id="n2" style="width: 50px"/>
+                <label>Infome o valor</label>
+                <input type="number" id="result" style="width: 50px"/>
+               
+                <input type="button" value="calcular" style="width: 250px" onclick="calc()"/>
+                
+                <p id="proximo" >Proximo</p>
+                <br><br>
+                
+                
+                
+                
+                
+                
+                
+                
+                </div>
+            <div class="rodape"> Desenvolviso por Anderson </div>
+            
+            
+        </div>
+        <script>
+            document.querySelector("#n1").value = Math.floor(Math.random() * 10);
+            document.querySelector("#n2").value = Math.floor(Math.random() * 10);
+        </script>
+        
+    </body>
+</html>
