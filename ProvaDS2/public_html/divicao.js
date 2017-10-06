@@ -6,13 +6,13 @@
 
 function  calc(){
     var resultado =0, n1=0, n2=0, operacao=0;
-    var strstring= "<a href="+"multiplicar.html"+">Multiplicar</a>";
+    var strstring= "<a href="+"soma.html"+">Subtrair</a>";
     n1=  parseFloat(document.querySelector("#n1").value);
     n2=  parseFloat(document.querySelector("#n2").value);
     result = parseFloat(document.querySelector("#result").value);
-    operacao = n1 - n2;
+    operacao = n1 / n2;
     if(operacao === result){
-        alert("voce acertou!");
+        alert("voce foi Campeao!");
         document.querySelector("#proximo").innerHTML= strstring;
     }
     else{

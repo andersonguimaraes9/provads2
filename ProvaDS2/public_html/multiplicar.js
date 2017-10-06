@@ -6,7 +6,7 @@
 
 function  calc(){
     var resultado =0, n1=0, n2=0, operacao=0;
-    var strstring= "<a href="+"divisao.html"+">divicao</a>";
+    var strstring= "<a href="+"divicao.html"+">divicao</a>";
     n1=  parseFloat(document.querySelector("#n1").value);
     n2=  parseFloat(document.querySelector("#n2").value);
     result = parseFloat(document.querySelector("#result").value);
